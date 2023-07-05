@@ -1,0 +1,343 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width:928px){
+
+.Homepage{
+max-height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(rgba(1, 14, 85, 0.5), rgba(0, 0, 0, 0.52) ), url(./images/E-Learning.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.HomepageContent{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+gap: 2em;
+text-align: center;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    padding:0 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 
+    rgb(231,180,22) ;
+    gap: 4em;
+}
+.hamburger{
+    display: none;
+}
+.burgerSideMenu{
+    display: none;
+}
+.logo{
+    text-decoration: none; 
+    color:rgb(7, 100, 153); 
+    /* color: #fff; */
+    /* color: royalblue; */
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 2em;
+    list-style: none;
+}
+.menuItem{
+     color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+}
+.login-signUp{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 1em;
+}
+.login, .signUp{
+    /* position: absolute;
+    top: 2;
+    right:2% ; */
+    text-decoration: none;
+    color: ;
+    background-color:rgb(11,73,108);
+    color: rgb(248, 167, 15);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.heroImage{
+    display: none;
+}
+.intro1{
+    font-size: 40px;
+}
+.intro2{
+    font-size: 25px;
+}
+.highlights{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+    list-style: none;
+}
+.intro3{
+    /* font-size: 25px; */
+}
+
+.btns{
+    text-decoration: none;
+    color: rgb(248, 167, 15);
+    background-color: rgb(11,73,108);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.coursesList{
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    height: 70vh;
+    width: 25%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    overflow-y: scroll;
+    transform: translate(-209%);
+    /* display: none; */
+}
+.coursesList a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 20px;
+}
+.coursesList a:hover{
+    color: rgb(11,73,108);
+    font-size: 18px;
+}
+
+}
+
+
+/* MOBILE HMEPAGE  */
+
+@media only screen and (max-width:928px){
+    .Homepage{
+        max-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-image: linear-gradient(rgba(1, 14, 85, 0.5), rgba(0, 0, 0, 0.52) ), url(./images/E-Learning2.jpg); */
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        }
+        .heroImage{
+            width: 100%;
+            height: 45vh;
+            background-image: url(./images/E-Learning.jpg);
+            /* do a slider of two images here  */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .HomepageContent{
+            height: 45vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        justify-content: center;
+        /* align-items: ; */
+        color: #fff;
+        background-color: rgb(11,73,108);
+        gap: 1em;
+        text-align: center;
+        }
+        nav{
+            justify-content: center;
+            display: flex;
+            width: 100%;
+            height: 10vh;
+            padding: 0 2%;
+            align-items: center;
+            background-color: 
+            rgb(231,180,22) ;
+            padding-left: 2em;
+    
+        }
+        .hamburger{
+            position: absolute;
+            left: 2%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            height: 30px;
+            width: 30px;
+            gap: 2px;
+            cursor: pointer;
+
+        }
+        .layer1,  .layer2,  .layer3{
+            width: 100%;
+            height: 3px;
+            border-radius: 10px;
+            background-color:rgb(11,73,108);
+            /* background-color: #fff; */
+        }
+        .layer2{
+            width: 80%;
+           
+        }
+
+        .logo{
+            text-decoration: none; 
+            /* color:rgb(11,73,108);  */
+            color: #fff;
+            font-size: 23px;
+          
+            align-items: center;
+            text-align: center;
+        }
+        .menu{
+            display: none;
+        }
+        .menuItem{
+             color: #fff;
+              text-decoration: none;
+              font-size: 15px;
+        }
+        .login-signUp{
+
+            display: none;
+        }
+        .intro1{
+            font-size: 30px;
+        }
+        .intro2{
+            font-size: 20px;
+        }
+        .highlights{
+            display: none;
+            /* display: flex; */
+    
+            align-items: center;
+            gap: .5em;
+            font-size: 18px;
+            list-style: none;
+        }
+        .intro3{
+            /* font-size: 25px; */
+            display: none;
+        }
+        
+        .btns{
+            text-decoration: none;
+            color: rgb(11,73,108);
+            background-color:rgb(248, 167, 15)  ;
+            width: fit-content;
+            align-self: center;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .coursesList{
+            position: absolute;
+            top: 10%;
+            left: 27%;
+            height: 70vh;
+            width: 25%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding-left: 1em;
+            padding-top: 1em;
+            overflow-y: scroll;
+            transform: translate(-209%);
+            /* display: none; */
+        }
+        .coursesList a{
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            line-height: 20px;
+        }
+        .coursesList a:hover{
+            color: rgb(11,73,108);
+            font-size: 18px;
+        }
+
+        .burgerSideMenu{
+            position: absolute;
+            top: 0;
+            width:75% ;
+            height: 100vh;
+            background-color: #fff;
+            transform: translate(-100%);
+        }
+        .sideMenu{
+            width: fit-content;
+            min-height:100vh ;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            padding: 5% 2%;
+            gap: 1em;
+
+
+        }
+        .sideMenuItem{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .sideMenuItem:hover{
+            font-size: 21px;
+            color: rgb(11,73,108);
+            text-decoration: underline rgb(11,73,108);
+        }
+        .closeSideMenu ion-icon{
+            /* background: #db3636; */
+            font-size: 35px; 
+            margin-left: 85%;
+            margin-top: 2%;
+        }
+        
+}
+
+/* alx colors  */
+
+/* rgb(234,103,51) 
+rgb(231,180,22) 
+rgb(26,170,144) 
+rgb(148,199,197) 
+
+rgb(11,73,108)  */
